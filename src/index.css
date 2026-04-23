@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --color-gameBg: #0a0a0f;
+  --color-void: #050507;
+}
+
+@layer base {
+  body {
+    background-color: #050507;
+    color: #e0e0e0;
+    font-family: var(--font-mono);
+    margin: 0;
+  }
+}
+
